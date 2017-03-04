@@ -1,4 +1,4 @@
-<project name="xf-automation-demo" basedir="." default="runcukes">
+<project name="cucumber-jvm-etl-seed" basedir="." default="runcukes">
     <property name="repo" value="https://repo1.maven.org/maven2"/>
 
     <!-- To figure out compatible combinations of versions, you should examine dependencies in the Maven POM files -->
