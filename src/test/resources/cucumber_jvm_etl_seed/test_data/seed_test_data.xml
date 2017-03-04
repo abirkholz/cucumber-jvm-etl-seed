@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root name="snlRegFilings">
+    <table name="BankRegFinlEOPFiling">
+        <queries>
+            <insert key="KeyDoc">INSERT INTO BankRegFinlEOPFiling VALUES (NEWID(),NEWID(),2147483647,CURRENT_TIMESTAMP,'TEST_FILING','INSTN_FILING_TYPE',1,CURRENT_TIMESTAMP)</insert>
+            <insert key="KeyDoc">INSERT INTO BankRegFinlEOPFiling VALUES (NEWID(),NEWID(),2147483646,CURRENT_TIMESTAMP,'TEST1FILING','INSTN_FILING_TYPE1',1,CURRENT_TIMESTAMP)</insert>
+            <insert key="KeyDoc">INSERT INTO BankRegFinlEOPFiling VALUES (NEWID(),NEWID(),2147483645,CURRENT_TIMESTAMP,'TEST2FILING','INSTN_FILING_TYPE2',1,CURRENT_TIMESTAMP)</insert>
+            <update key="KeyBankRegFinlEOPFiling">UPDATE BankregFinlEOPFiling SET KeyInstnFilingType='Updated!' WHERE KeyBankRegFinlEOPFiling='16C13C75-05DC-4B48-8942-5A35A7999F3A'</update>
+            <delete key="KeyBankRegFinlEOPFiling">DELETE FROM BankRegFinlEOPFiling WHERE KeyBankRegFinlEOPFiling='BE2A46E1-71A0-4BA8-B0D3-2CB24FBE5AD5'</delete>
+        </queries>
+    </table>
+</root>
